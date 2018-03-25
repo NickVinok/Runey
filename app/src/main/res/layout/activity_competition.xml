@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@drawable/fon1"
+    android:visibility="visible"
+    android:background="@drawable/fon1"
     tools:context="com.example.runey.Competition">
 
     <EditText
@@ -18,7 +19,7 @@
         android:ems="10"
         android:hint=""
         android:inputType="textPersonName"
-        android:textColor="#22ca22"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.934"
@@ -45,52 +46,36 @@
     <Button
         android:id="@+id/button_make_your_own"
         android:layout_width="319dp"
-        android:layout_height="wrap_content"
+        android:layout_height="87dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Make your own competition"
-        android:visibility="invisible"
+        android:background="@drawable/makeown"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821" />
+        app:layout_constraintVertical_bias="0.926" />
 
     <Button
         android:id="@+id/button_find_competition"
-        android:layout_width="129dp"
-        android:layout_height="wrap_content"
+        android:layout_width="312dp"
+        android:layout_height="101dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Find competition"
-        android:visibility="invisible"
+        android:background="@drawable/kompet"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="164dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="168dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.989"
-        app:srcCompat="@drawable/kompet" />
+        app:layout_constraintVertical_bias="0.669" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -123,21 +108,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.407"
         app:srcCompat="@drawable/bat" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="356dp"
-        android:layout_height="109dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953"
-        app:srcCompat="@drawable/makeown" />
 
 
 </android.support.constraint.ConstraintLayout>

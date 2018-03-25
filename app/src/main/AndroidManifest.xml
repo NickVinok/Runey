@@ -18,18 +18,39 @@
         </activity>
         <activity android:name=".SecondView">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.example.runey.SecondView" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.Default" />
             </intent-filter>
         </activity>
-        <activity android:name=".Competition" />
-        <activity
-            android:name=".Challenge_Steps_time"
-            android:label="@string/title_activity_challenge__steps_time"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Parametrs" />
-        <activity android:name=".MyRuney"></activity>
+        <activity android:name=".Competition">
+            <intent-filter>
+                <action android:name="com.example.runey.Competition" />
+
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Parametrs">
+            <intent-filter>
+                <action android:name="com.example.runey.Parametrs" />
+
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyRuney">
+            <intent-filter>
+                <action android:name="com.example.runey.MyRuney" />
+
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChallengeWindow">
+            <intent-filter>
+                <action android:name="com.example.runey.SecondView" />
+
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
