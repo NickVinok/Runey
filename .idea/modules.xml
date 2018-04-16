@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Runey.iml" filepath="$PROJECT_DIR$/Runey.iml" />
+      <module fileurl="file://J:\AndroidProjects\TestGit\Runey.iml" filepath="J:\AndroidProjects\TestGit\Runey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestGit.iml" filepath="$PROJECT_DIR$/TestGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
